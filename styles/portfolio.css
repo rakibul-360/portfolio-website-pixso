@@ -1,5 +1,9 @@
 
-
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -192,7 +196,8 @@ footer{
     display: flex;
     padding: 130px 230px;
     gap: 100px;
-    margin-top: 100px;
+    margin: 100px auto;
+
 
 }
 footer input[type=text], input[type=email], textarea, input[type=submit]{
